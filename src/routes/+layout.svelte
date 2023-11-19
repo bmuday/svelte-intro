@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { supabase } from "$lib/supabase";
     import "../app.css"
     </script>
     

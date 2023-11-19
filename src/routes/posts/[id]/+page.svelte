@@ -16,4 +16,13 @@
 <i>{post.created_at}</i>
 
 <hr>
-<div class="content">{@html post.body}</div>
+
+<div class="content">
+    {@html post.body}
+</div>
+
+<div class="posts">
+    <h3>Posts</h3>
+
+    <ul></ul>
+</div>

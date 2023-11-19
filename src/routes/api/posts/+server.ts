@@ -7,8 +7,6 @@ export const GET: RequestHandler = async ({ url }) => {
   const order = url.searchParams.get("order") || "asc";
   const ascending = order === "asc";
 
-  console.log("limit", limit);
-
   const { data: posts, error } = await supabase
     .from("post")
     .select()
